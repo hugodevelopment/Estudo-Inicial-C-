@@ -13,12 +13,16 @@ int main( )
   
   cin >> num1 >> num2; // não precisa colocar o endl;
   
-  if ( num1 == num2 ) // não precisa colocar ; após o partenteses
+  // não precisa colocar ; após o parenteses
+  if ( num1 == num2 ) 
 	  cout << num1 << "é igual ao:" << num2 << endl:
+  // Sinal de diferente	
   if  ( num1!= num2 )
 	  cout << num1 << "não é igual ao:" << num2 << endl;
+  // Sinal de menor	
   if ( num1 < num2 ) 
 	  cout << num1 << "é memor que:" << num2 << endl;
+  // Sinal de maior	
   if ( num1 > num2 )
 	  cout << num1 << "é maior que:" << num2 << endl;
   if ( num1 <= num2 )
